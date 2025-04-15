@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nhà Hàng Họ Trương</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <link href="img/favicon.ico" rel="icon">
+
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container-xxl bg-white p-0">
+    
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Đang tải...</span>
+            </div>
+        </div>
+
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>YUMMY</h1>
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Trang Chủ</a>
+                        <a href="about.html" class="nav-item nav-link">Giới Thiệu</a>
+                        <a href="service.html" class="nav-item nav-link">Dịch Vụ</a>
+                        <a href="menu.html" class="nav-item nav-link">Thực Đơn</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trang</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Đặt Bàn</a>
+                                <a href="team.html" class="dropdown-item">Đầu Bếp</a>
+                                <a href="testimonial.html" class="dropdown-item">Nhận Xét</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Liên Hệ</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Đặt Bàn</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Món Ngon<br>Mỗi Ngày </h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">Giúp bạn thưởng thức các mốn ăn ngon là niềm vinh hạnh đối với chúng tôi !</p>
+                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Đặt Bàn</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5>Đầu Bếp Tài Năng</h5>
+                                <p>Nhà hàng của bạn có đội ngũ đầu bếp chuyên nghiệp với kỹ năng và kinh nghiệm vượt trội, mang đến những món ăn ngon miệng, sáng tạo và độc đáo. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Thực Phẩm Chất Lượng</h5>
+                                <p>Nhà hàng cam kết sử dụng nguyên liệu tươi ngon, sạch và an toàn để chế biến các món ăn. Mỗi món ăn không chỉ ngon mà còn đảm bảo dinh dưỡng.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Đặt Hàng Trực Tuyến</h5>
+                                <p>Khách hàng có thể dễ dàng đặt món ăn yêu thích của mình qua nền tảng trực tuyến của nhà hàng giúp khách hàng tiết kiệm thời gian.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>Dịch Vụ 24/7</h5>
+                                <p>Nhà hàng cung cấp dịch vụ phục vụ khách hàng mọi lúc, mọi nơi, khách hàng luôn có thể yên tâm rằng sẽ nhận được sự hỗ trợ tận tình từ đội ngũ nhân viên. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+<!-- Giới thiệu về chúng tôi Bắt đầu -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/a1.jpg">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/a2.jpg" style="margin-top: 25%;">
+                    </div>
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/a3.jpg">
+                    </div>
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/a4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="section-title ff-secondary text-start text-primary fw-normal">Về Chúng Tôi</h5>
+                <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>YUMMY</h1>
+                <p class="mb-4">Chào mừng đến với Nhà Hàng Họ Trương, nơi mỗi món ăn đều được chế biến từ tâm huyết và tình yêu với ẩm thực.</p>
+                <p class="mb-4">Tại Nhà Hàng Họ Trương, chúng tôi mang đến cho bạn những trải nghiệm ẩm thực tuyệt vời, với các món ăn đa dạng, ngon miệng và đầy đủ hương vị.Khám phá thế giới ẩm thực độc đáo với đội ngũ đầu bếp tài năng và nguyên liệu tươi ngon, chúng tôi tự hào là điểm đến lý tưởng để bạn thưởng thức những món ăn ngon nhất, với dịch vụ tận tâm và không gian sang trọng tại Nhà Hàng Họ Trương.</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                            <div class="ps-4">
+                                <p class="mb-0">Năm Kinh Nghiệm</p>
+                                <h6 class="text-uppercase mb-0">Kinh Nghiệm</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                            <div class="ps-4">
+                                <p class="mb-0">Đầu Bếp Nổi Tiếng</p>
+                                <h6 class="text-uppercase mb-0">Đầu Bếp Chuyên Nghiệp</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="">Đọc Thêm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Giới thiệu về chúng tôi Kết thúc -->
+
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Thực Đơn</h5>
+                    <h1 class="mb-5">Món Ăn Phổ Biến Nhất</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Phổ Biến</small>
+                                    <h6 class="mt-n1 mb-0">Ăn Sáng</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Đặc Biệt</small>
+                                    <h6 class="mt-n1 mb-0">Bữa Trưa</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Thơm Ngon</small>
+                                    <h6 class="mt-n1 mb-0">Bữa Tối</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ansang7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pandan Bamboo</span>
+                                                <span class="text-primary">250.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Một món bánh ngọt mang hương thơm dịu êm của lá dứa, cùng vị ngọt thanh béo ngậy của nước cốt dừa.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ansang4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cá Hồi Nướng Kiểu Wellington.</span>
+                                                <span class="text-primary">350.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Được ôm trọn bởi lớp vỏ bánh giòn tan, ẩn bên trong là phần cá hồi Nauy vẫn giữ được vẹn nguyên độ mềm mọng nóng hổi, dùng kèm với sốt chua nhẹ thanh tao tạo nên một bản giao hưởng hương vị đầy say đắm</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANSANG1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pasta tẩm mực</span>
+                                                <span class="text-primary">480.000vnd</span>
+                                            </h5>
+                                            <small class="fst-italic">Quyện tròn trong lớp sốt trứng muối đậm đà thơm nức là những sợi mì Pasta mực đen mềm dai kéo dài bất tận cùng các loại hải sản tươi ngọt thanh mát, sự kết hợp độc đáo của hai nền ẩm thực Việt - Ý</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/sang2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sườn bò Mỹ nướng</span>
+                                                <span class="text-primary">680.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Từng thớ thịt sườn bò đẫm sốt Mars Venus, đan xen mượt mà cùng vị béo bùi của bắp nấu cà ri mở ra hình ảnh cánh đồng bắp đầy bình yên và phóng khoáng</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/asang3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mai Cua Đút Lò Sốt Trứng Muối</span>
+                                                <span class="text-primary">780.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Ẩn trong chiếc mai cua cứng cáp ấy là phần thịt cua tươi mềm, thanh mát được kết hợp hoàn hảo với sốt trứng muối đậm đà ngậy thơm, tạo nên một bản giao hưởng hương vị đầy mê hoặc.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANSANG5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mars Venus </span>
+                                                <span class="text-primary">690.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Vị ngọt thanh mát của thức hải sản tươi mới được khoác lên mình lớp áo bột vàng ươm, kết hợp cùng sốt Mars Venus đặc biệt như mê hoặc mọi giác quan.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANSANG6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pate áp chảo</span>
+                                                <span class="text-primary">480.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Kết cấu béo mịn của Pate, vị chua ngọt của trái cây, hòa quyện cùng vị chua thanh của sốt chanh dây, đánh thức mọi giác quan.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANSANG8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Polar Butter Bulot</span>
+                                                <span class="text-primary">590.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Phần ốc Bulot giòn ngọt tươi mới thấm đẫm với sốt bơ béo ngậy, một hương vị đậm đà đầy lôi cuốn, sẵn sàng chinh phục cả những khẩu vị khó tính, như cái cách bạn say mê vẻ đẹp kì vĩ của vùng Cực Bắc vậy </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ATRUA1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span> Salad Cá Hồi Nướng</span>
+                                                <span class="text-primary">490.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Salad cá hồi nướng là một món ăn tinh tế, kết hợp giữa hương vị thơm ngon của cá hồi nướng và sự tươi mát của rau xanh. Cá hồi, với độ béo ngậy và giàu dinh dưỡng, được nướng chín tới, giữ lại độ ẩm và hương vị tự nhiên</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ATRUA2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Soup Nhum Biển</span>
+                                                <span class="text-primary">490.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Soup nhum biển là một món ăn tinh tế, mang đậm hương vị của biển cả. Món soup này thường được chế biến từ nhum biển tươi ngon, kết hợp với các loại hải sản khác tạo nên một bát soup đầy màu sắc và hấp dẫn.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ATRUA1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mì Ý Lươn Nướng </span>
+                                                <span class="text-primary">1.150.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Lươn được nướng chín tới, giữ lại độ ẩm và hương vị tự nhiên, tạo nên sự hòa quyện hoàn hảo với mì. Khi thưởng thức, bạn sẽ cảm nhận được vị ngọt thanh của lươn hòa quyện với độ béo ngậy của nước sốt, cùng với các loại gia vị tinh tế, mang lại trải nghiệm ẩm thực đầy phong cách.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANHTRUA4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span> Tôm Hùm Phoma</span>
+                                                <span class="text-primary">990.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Lớp phô mai béo ngậy được rắc lên trên tôm hùm, khi nướng sẽ tan chảy và tạo thành một lớp vỏ vàng ươm, thơm lừng. Sự kết hợp giữa vị ngọt của tôm hùm và độ béo của phô mai mang lại một trải nghiệm ẩm thực tuyệt vời</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTRUA5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bò cuộn chả tôm</span>
+                                                <span class="text-primary">1.350.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">ết hợp giữa vị ngọt tự nhiên của tôm và độ mềm mại của thịt bò tạo nên một sự hòa quyện hoàn hảo giữa hai nguyên liệu.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTRUA6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ốc Viên Chiên Giòn</span>
+                                                <span class="text-primary">990.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Một món ăn hấp dẫn, mang đến sự kết hợp hoàn hảo giữa vị ngọt tự nhiên của ốc và độ giòn rụm của lớp vỏ chiên bên ngoài.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTRUA7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cá Ngừ Ngâm Tương Sốt Kem Sữa</span>
+                                                <span class="text-primary">780.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Món ăn độc đáo, kết hợp giữa vị ngọt tự nhiên của cá ngừ và độ béo ngậy của sốt kem sữa. Món ăn này thường được chế biến từ cá ngừ ngâm dầu, mang lại sự tiện lợi và hương vị thơm ngon.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTRUA8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gà Rút Xương Đút Lò</span>
+                                                <span class="text-primary">790.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Một món ăn hấp dẫn và tinh tế, thường được chế biến cho các dịp đặc biệt hoặc bữa tiệc. Món ăn này không chỉ nổi bật với hương vị thơm ngon mà còn gây ấn tượng với cách trình bày đẹp mắt.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span> Sea Urchin Soup with Caviar: </span>
+                                                <span class="text-primary">690.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Khai vị nhẹ nhàng với súp nhum biển và trứng cá tầm quý hiếm</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fresh Oyster Yuzu Wasabi & Salmon Roe</span>
+                                                <span class="text-primary">690.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic"> Sáng tạo riêng cho mùa yêu năm nay với vị tươi ngon của hàu, trứng cá hồi và trái tắc Nhật</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tuna Ferment with Soya Egg Yolk</span>
+                                                <span class="text-primary">790.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic"> Món đẹp hoàn hảo từ cá ngừ béo nhẹ, dưa leo thanh mát cùng chút hương pansy mơ màng</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bake Nha Trang Lobster with Miso Glaze</span>
+                                                <span class="text-primary">1.150.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Bánh nướng độc đáo với tôm hùm và sốt hành tây lạ miệng</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span> Salad bò nướng </span>
+                                                <span class="text-primary">990.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Ngoài bò nướng không bị dai, còn có trứng cút và quat oliu, vừa miệng, chua ngọt kích thích vị giác lắm.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hào thấm sốt phô mai</span>
+                                                <span class="text-primary">790.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Bào ngư ngấm đều sốt Kabayaki được nướng đến độ chín hoàn hảo, và bạn cũng có thể cảm nhận được sự bùng nổ của vị giác khi nếm qua vị đậm đà cay tê nồng đượm của sò điệp căng mọng ngập trong sốt</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANSANG5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mars Venus</span>
+                                                <span class="text-primary">690.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Vị ngọt thanh mát của thức hải sản tươi mới được khoác lên mình lớp áo bột vàng ươm, kết hợp cùng sốt Mars Venus đặc biệt như mê hoặc mọi giác quan.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ANTOI9.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chả Cuốn Ốc Chiên Giòn</span>
+                                                <span class="text-primary">890.000VND</span>
+                                            </h5>
+                                            <small class="fst-italic">Một món ăn độc đáo và hấp dẫn, kết hợp giữa vị ngọt tự nhiên của ốc và độ giòn rụm của lớp vỏ chiên bên ngoài. Món ăn này thường được chế biến từ ốc tươi, mang lại hương vị thơm ngon và sự mới mẻ cho bữa ăn.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+
+        <!-- Reservation Start -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Đặt Bàn</h5>
+                        <h1 class="text-white mb-4">Đặt Bàn Trực Tuyến</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Tên của bạn">
+                                        <label for="name">Tên của bạn</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Email của bạn">
+                                        <label for="email">Email của bạn</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Ngày & Giờ" data-target="#date3" data-toggle="datetimepicker" />
+                                        <label for="datetime">Ngày & Giờ</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="select1">
+                                            <option value="1">1 Người</option>
+                                            <option value="2">2 Người</option>
+                                            <option value="3">3 Người</option>
+                                        </select>
+                                        <label for="select1">Số Lượng Người</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Yêu Cầu Đặc Biệt" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Yêu Cầu Đặc Biệt</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Đặt Bàn Ngay</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reservation Start -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Các Thành Viên</h5>
+                    <h1 class="mb-5">Các Đầu Bếp Chính Của Chúng Tôi</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/BEP1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Bành Thị Lễu</h5>
+                            <small>Bếp Chính</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/BEP2.webp" alt="">
+                            </div>
+                            <h5 class="mb-0">Trương Văn Út</h5>
+                            <small>Bếp Phó</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/BEP3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Ngã Thị Té</h5>
+                            <small>Bếp Phó</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/BEP4.png" alt="">
+                            </div>
+                            <h5 class="mb-0">Sầu Tím Thiệp Hồng </h5>
+                            <small>Bếp Phó</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Nhận Xét</h5>
+                    <h1 class="mb-5">Khách Hàng Nói Gì Về Chúng Tôi!!!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>“Dịch vụ tuyệt vời, món ăn ngon và phục vụ rất chuyên nghiệp. Tôi sẽ quay lại lần sau!”</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/avt1.jpeg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Nguyễn Văn A</h5>
+                                <small>Doanh Nhân</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>“Không gian tuyệt vời và thức ăn rất ngon. Tôi và gia đình rất hài lòng.”</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/avt2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Trần Thị B</h5>
+                                <small>Giáo Viên</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>“Món ăn được chế biến từ những nguyên liệu tươi ngon, tôi đã có một bữa ăn tuyệt vời.”</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/avt3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Phan Minh C</h5>
+                                <small>Nhà Báo</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>“Dịch vụ xuất sắc, món ăn phong phú và trình bày đẹp mắt. Chắc chắn tôi sẽ quay lại.”</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/avt4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Lê Minh D</h5>
+                                <small>Người Mẫu</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Testimonial End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Công Ty</h4>
+                        <a class="btn btn-link" href="">Về Chúng Tôi</a>
+                        <a class="btn btn-link" href="">Liên Hệ</a>
+                        <a class="btn btn-link" href="">Đặt Chỗ</a>
+                        <a class="btn btn-link" href="">Chính Sách Quyền Riêng Tư</a>
+                        <a class="btn btn-link" href="">Điều Khoản & Điều Kiện</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Liên Hệ</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Đường, Thành Phố Hồ Chí Minh, Việt Nam</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Giờ Mở Cửa</h4>
+                        <h5 class="text-light fw-normal">Thứ Hai - Thứ Bảy</h5>
+                        <p>09:00 - 21:00</p>
+                        <h5 class="text-light fw-normal">Chủ Nhật</h5>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Bản Tin</h4>
+                        <p>Đăng ký nhận bản tin mới từ chúng tôi để nhận ưu đãi đặc biệt.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Email của bạn">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Đăng Ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">kietdeptrainhattrendoi.com</a>, Tất Cả Quyền Lợi Được Bảo Lưu.
+                            <br><br>
+                            Thiết Kế Bởi Kiệt đẹp trai lắm ạ <a class="border-bottom" href="#"></a><br><br>
+                           
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Trang Chủ</a>
+                                <a href="">Cookies</a>
+                                <a href="">Trợ Giúp</a>
+                                <a href="">Câu Hỏi Thường Gặp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
